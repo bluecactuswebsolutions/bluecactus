@@ -1,0 +1,114 @@
+@import "variables.scss";
+@import "buttons.scss";
+
+@media (max-width:1080px) {
+  .header {
+    border-bottom: .1rem solid black;
+    h4 {
+      display: none;
+    }
+    .h-list {
+      &:nth-child(2) {
+        li {
+          text-align: left;
+          width: 40%;
+          &:nth-child(1) {
+            width: 75%;
+            img {
+              float: right;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #logo {
+    width: 30%;
+  }
+
+ .bar {
+    width: auto;
+    overflow: hidden;
+    padding: 0 2% 0 1%;;
+      ul {
+        li {
+          display: block;
+          width: 100%;
+          .h-list {
+            width: 100%;
+            li {
+              display: inline-block;
+              font-size: 2rem;
+              &:nth-child(1) {
+                text-align: center;
+                width: 100%;
+              }
+              &:nth-child(2) {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .activeTab {
+    ul {
+      li {
+        color: $themeBlue;
+      }
+    }
+    border-bottom: .5rem solid black !important;
+  }
+
+  #smallIcons {
+    display: none;
+  }
+
+  footer {
+    .fa {
+      display: none;
+    }
+  }
+ .box, .doubleBox {
+   width: 92%;
+   margin: 0;
+   h5 {
+     border-bottom: none;
+   }
+   .h-list, .v-list {
+     margin: 0;
+     li {
+       display: block;
+       width: 100%;
+     }
+   }
+ }
+ .box {
+   margin: 26% 0 0 0;
+   min-height: 0;
+ }
+ #content {
+   li {
+     display: block;
+     width: 100%;
+     margin: 0;
+     text-align: center;
+   }
+ }
+ #avatar {
+   width: 40%;
+ }
+ .deets {
+   float: none;
+
+ }
+}
+
+@media (max-width:673px) {
+  .box {
+    // margin: 30% 0 0 0;
+  }
+}

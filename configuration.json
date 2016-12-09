@@ -1,0 +1,14 @@
+{
+  "port": 3005,
+  "api": {
+    "ENV": "DEV"
+  },
+  "email": {
+    "sender": "[email address]",
+    "receiver": "[email address]"
+  },
+  "AWS": {
+    "region": "[aws-region]",
+    "ARN": "[AWS SES ARN]"
+  }
+}
